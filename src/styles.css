@@ -143,6 +143,7 @@ input[type=checkbox]{accent-color:var(--accent);width:18px;height:18px}
 }
 @media(max-width:480px){.grid4,.grid3{grid-template-columns:1fr}.content{padding:16px 14px 80px}.panel.right{width:250px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
 /* ===== LIGHT THEME ===== */
 :root{color-scheme:dark}
 [data-theme="light"]{color-scheme:light;--bg:#f5f5fa;--text:#16162a;--muted:#5f5f78;--accent:#6254e0;--accent2:#6d4fd8;--ok:#059669;--bad:#dc2626;--warn:#b45309;--glass:rgba(255,255,255,.72);--glass2:rgba(255,255,255,.95);--line:rgba(20,20,50,.14)}
