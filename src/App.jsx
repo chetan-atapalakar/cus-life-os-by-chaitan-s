@@ -17,6 +17,7 @@ import Wellness from "./pages/Wellness.jsx";
 import HomeLists from "./pages/HomeLists.jsx";
 import AIChat from "./pages/AIChat.jsx";
 import Settings from "./pages/Settings.jsx";
+import ThemeToggle from "./ThemeToggle.jsx";
 
 const PAGES = [
   ["dashboard", "Dashboard", LayoutDashboard],
@@ -214,6 +215,7 @@ export default function App() {
                     )}
                   </AnimatePresence>
                 </div>
+                <ThemeToggle />
                 <div className="pop">
                   <button className="icon-btn" aria-label="Notifications" onClick={() => setBell(!bell)}>
                     <Bell size={20} />
